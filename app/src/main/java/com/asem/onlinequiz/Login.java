@@ -61,8 +61,6 @@ public class Login extends AppCompatActivity {
         SignUp = findViewById(R.id.SignUP);
         Forget = findViewById(R.id.forget_password);
 
-        google = findViewById(R.id.googleLogin);
-
         String eemail = Paper.book().read("UserEmail");
         String Ppassword = Paper.book().read("UserPassword");
 
@@ -107,13 +105,6 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        google.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = gsc.getSignInIntent();
-                startActivityForResult(intent,100);
-            }
-        });
 
     }
     private void login (String email, String password)

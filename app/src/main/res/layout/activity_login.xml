@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C3ACD0"
+    android:background="#6495ED"
     tools:context=".Login">
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,9 +17,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
             android:gravity="left"
             android:text="Login"
-            android:textColor="#4A2784"
+            android:textColor="#fff"
             android:textSize="25sp" />
 
         <EditText
@@ -27,6 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your email"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:inputType="textEmailAddress"
             android:paddingLeft="10dp" />
 
@@ -37,39 +40,12 @@
             android:layout_marginTop="2dp"
             android:ems="10"
             android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:inputType="textPassword"
             android:paddingLeft="10dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="-------------------------------------------------"
-            android:textSize="30dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Or sign in using"
-            android:textSize="16dp"
-            android:layout_marginBottom="25dp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/googleLogin"
-                android:layout_width="54dp"
-                android:layout_height="54dp"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:background="@drawable/icon"
-                />
-
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -92,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="39dp"
                 android:text="Forget your password?"
+                android:background="@drawable/rounded_button"
                 android:textAllCaps="false"
-                android:textColor="#490455"
                 android:textSize="12dp" />
 
         </LinearLayout>
@@ -104,9 +80,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:textAllCaps="false"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="5dp"
             android:backgroundTint="#4A2885"
-            android:text="Login" />
+            android:text="Login"
+            android:textAllCaps="false" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,8 +110,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:text="Sign Up"
+                android:background="@drawable/rounded_button"
 
-                android:backgroundTint="#4A2885"
+
                 android:textAllCaps="false"
                 android:textColor="#ffff"
                 android:textSize="16dp"

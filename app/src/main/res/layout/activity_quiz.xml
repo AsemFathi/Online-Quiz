@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C3ACD0"
+    android:background="#6495ED"
     tools:context=".Quiz">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Question"
         android:textSize="24dp"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
         android:id="@+id/quizQuestionNumber" />
@@ -24,10 +25,12 @@
         android:text="Question"
         android:id="@+id/quizQuestion"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="18dp"
         />
     <Button
         android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="Option1"
@@ -65,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Next"
-        android:backgroundTint="@color/black"
+        android:background="@drawable/rounded_button"
         android:textAllCaps="false"
         android:id="@+id/NextBTN"
         />

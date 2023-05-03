@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C3ACD0"
+    android:background="#6495ED"
     tools:context=".Register">
     <ScrollView
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:gravity="left"
                 android:text="Register"
                 android:textStyle="bold"
-                android:textColor="#4A2784"
+                android:textColor="@color/rounded_button"
                 android:textSize="25sp" />
 
 
@@ -34,12 +34,16 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:layout_marginTop="2dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:hint="Username"
                 android:paddingLeft="10dp"
                 />
             <EditText
                 android:id="@+id/editTextRegisterEmailAddress"
                 android:layout_width="match_parent"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
                 android:layout_height="wrap_content"
                 android:hint="Enter your email"
                 android:inputType="textEmailAddress"
@@ -50,6 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:layout_marginTop="2dp"
                 android:hint="Password"
                 android:paddingLeft="10dp"
@@ -61,6 +67,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:layout_marginTop="2dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
                 android:hint="Phone"
                 android:paddingLeft="10dp" />
 

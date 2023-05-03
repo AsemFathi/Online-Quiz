@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6495ED"
     tools:context=".ForgetPass">
 
     <LinearLayout
@@ -16,8 +17,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginRight="3dp"
-            android:text="don't worry it happens please enter your email"
-            android:textColor="#2C0932"
+
+            android:text="Don't worry it happens please enter your email"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -33,7 +35,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:layout_marginRight="30dp"
+            android:textColor="@color/white"
             android:layout_weight="1"
+            android:textColorHint="@color/white"
+            android:hint="Enter your email"
             android:ems="10"
             />
 
@@ -50,6 +55,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="250dp"
             android:layout_marginRight="5dp"
+
+            android:textAllCaps="false"
             android:backgroundTint="#512759"
             android:background="@drawable/rounded_button"
             android:text="Sumbit" />

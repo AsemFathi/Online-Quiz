@@ -15,9 +15,6 @@
             android:name=".StudentScore"
             android:exported="false" />
         <activity
-            android:name=".Result"
-            android:exported="false" />
-        <activity
             android:name=".Quiz"
             android:exported="false" />
         <activity
