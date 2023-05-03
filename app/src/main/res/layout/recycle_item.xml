@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student name"
+        android:id="@+id/studentName"
+        />
+
+    <TextView
+        android:id="@+id/tv_studentScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Score"
+        android:layout_marginLeft="200dp"
+        />
+
+
+</androidx.cardview.widget.CardView>
